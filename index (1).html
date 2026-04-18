@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our 2 Years 💖</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive;
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffe4ec);
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    <audio id="bgMusic" loop
+      <source src="song.mp3" type="audio/mpeg">
+    </audio>
+}
+
+/* screens */
+.screen {
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.active {
+    display: flex;
+}
+
+/* buttons */
+button {
+    padding: 12px 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #ff4fa3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 0 10px #ff8fc7;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* images */
+img {
+    max-width: 80%;
+    border-radius: 20px;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+/* kitty float */
+.kitty {
+    position: absolute;
+    width: 70px;
+    animation: float 6s linear forwards;
+}
+
+@keyframes float {
+    from { transform: translateY(100vh); }
+    to { transform: translateY(-10vh); }
+}
+
+/* sparkles */
+.sparkle {
+    position: absolute;
+    font-size: 14px;
+    animation: sparkle 4s linear forwards;
+}
+
+@keyframes sparkle {
+    from { transform: translateY(100vh); opacity: 1; }
+    to { transform: translateY(-10vh); opacity: 0; }
+}
+
+/* flower */
+.flower {
+    font-size: 70px;
+    animation: bounce 1.5s infinite alternate;
+}
+
+@keyframes bounce {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+}
+
+/* error text */
+#error {
+    color: white;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🎵 MUSIC (Ari Abdul - Sinners) -->
+<iframe width="0" height="0"
+src="https://www.youtube.com/embed/7pKzZx7Z3yU?autoplay=1&mute=0&loop=1&playlist=7pKzZx7Z3yU"
+allow="autoplay">
+</iframe>
+
+<!-- SCREEN 0 -->
+<div class="screen active">
+    <h1>Hey AYAAA 💖</h1>
+    <p>Ready for our story? 🥺</p>
+    <button onclick="show(1)">Start 💕</button>
+</div>
+
+<!-- SCREEN 1 -->
+<div class="screen">
+    <h2>Where did we first meet? 💭</h2>
+
+    <button onclick="wrong()">Online 😤</button>
+    <button onclick="correct(2)">At school 😉</button>
+
+    <p id="error"></p>
+</div>
+
+<!-- SCREEN 2 -->
+<div class="screen">
+    <h2>Who fell first? 👀💖</h2>
+
+    <button onclick="correct(3)">Me 😎</button>
+    <button onclick="wrong()">You 🥰</button>
+
+    <p id="error"></p>
+</div>
+<!-- SCREEN 3 -->
+<div class="screen">
+    <h1>Hehehehehehehe!!, You see👀, I told you i felt for you first🫠, And i love you the most😏, hehehehehehehehehe!!</h1>
+    <h2>Look What I Have For You Mamaaa, hihihi😁😁 </h2>
+    <button onclick="show(4)">Here Honey 💖</button>
+</div>
+      
+<!-- SCREEN 4 -->
+<div class="screen">
+    <h2>Our memories 🧸💞</h2>
+
+    <img src="https://uploads.onecompiler.io/44kr5jm3c/44kqyk9p6/Screenshot%202026-04-18%20195538.png">
+
+    <p>Every moment with you feels unreal ✨</p>
+
+    <button onclick="show(5)"> Achkid a Zinino💖</button>
+</div>
+
+<!-- SCREEN 5 -->
+<div class="screen">
+    <h2>Our memories 🧸💞</h2>
+
+    <img src="https://uploads.onecompiler.io/44kr5jm3c/44kqyk9p6/7cd26467-17f0-4dd0-b0c0-8daa0dc5f5f3.png">
+
+    <p>Every moment with you feels unreal ✨</p>
+
+    <button onclick="show(6)"> chofi hadi a lghzala💖</button>
+</div>
+
+<!-- SCREEN 6 -->
+<div class="screen">
+    <h2>Our memories 🧸💞</h2>
+
+    <img src="https://uploads.onecompiler.io/44kr5jm3c/44kqyk9p6/5e6e4490-51af-4e8c-8bc9-10a79d34cce5.png">
+
+    <p>Every moment with you feels unreal ✨</p>
+
+    <button onclick="show(7)"> Bibi a lil surprise hehehe💖</button>
+</div>
+
+<!-- SCREEN 7 FINAL -->
+<div class="screen">
+    <h1>2 years later… 💖</h1>
+    <h2>I’d still choose you every time 🥺</h2>
+    <h3>You are the best person i have in my life💕, and you are my everything in this world🌍</h3>
+    <div class="flower">🌷</div>
+
+    <p>
+        Happy Anniversary Ayanoo 💕<br><br>
+        Distance never changed us… it proved us.<br><br>
+        I love you my pretty beautiful sexyyyy wifey💍, i love you sooo fuuucking much🫶, and i can't live without you <3, you're a blessin in my life🥹, you're the best thing that ever happened to me😁, i wanna stay with you forever and marry you and make a lot if kids😏, i love you soooo much💖, you're sooo beautiful and pretty🦋, you're the only girl i can see i love youuu ^^ 😍<br><br>
+        I love you forever ❤️<br>
+        — Your Mohyyy
+    </p>
+</div>
+
+<script>
+let screens = document.querySelectorAll(".screen");
+
+/* show screen */
+function show(index) {
+    screens.forEach(s => s.classList.remove("active"));
+    screens[index].classList.add("active");
+}
+
+/* correct answer */
+function correct(nextIndex) {
+    show(nextIndex);
+}
+
+/* wrong answer (blocks progression) */
+function wrong() {
+    document.getElementById("error").innerText = "Nope 😤 try again babe 💖";
+}
+
+/* sparkles */
+setInterval(() => {
+    let s = document.createElement("div");
+    s.className = "sparkle";
+    s.style.left = Math.random() * 100 + "vw";
+    s.innerHTML = "✨";
+    document.body.appendChild(s);
+    setTimeout(() => s.remove(), 4000);
+}, 250);
+
+/* hello kitty floating */
+setInterval(() => {
+    let k = document.createElement("img");
+    k.src = "https://i.imgur.com/5cX1b1H.png";
+    k.className = "kitty";
+    k.style.left = Math.random() * 100 + "vw";
+    document.body.appendChild(k);
+    setTimeout(() => k.remove(), 6000);
+}, 2000);
+</script>
+
+</body>
+</html>
